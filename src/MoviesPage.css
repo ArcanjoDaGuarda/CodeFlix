@@ -1,0 +1,182 @@
+html, body {
+    overflow-x: hidden;
+  }
+  
+  .movies-container {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .navbar-logo {
+    height: 30px;
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 55px;
+    margin: 0;
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .navbar-item {
+    cursor: pointer;
+    font-size: 1em;
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  .navbar-item:hover {
+    color: #61dafb;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .separator {
+    margin: 0 5px;
+    color: white;
+  }
+  
+  .search-button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding-right: 15px;
+  }
+  
+  .search-button:hover {
+    color: #61dafb;
+  }
+  
+  .movie-details {
+    text-align: left;
+    padding: 20px;
+    color: white;
+  }
+  
+  .movie-title {
+    font-size: 3em;
+    margin: 0;
+  }
+  
+  .movie-overview {
+    font-size: 1em;
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .movie-list-container {
+    overflow-x: auto; 
+    white-space: nowrap;
+    width: 100%;
+  }
+  
+  .movie-list {
+    display: inline-flex;
+    padding: 20px;
+    flex-shrink: 0;
+  }
+  
+  .movie-poster {
+    width: 120px;
+    height: 180px;
+    object-fit: cover;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .movie-poster:hover {
+    transform: scale(1.1);
+  }
+  
+  .imdb-logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .movie-info {
+    font-size: 0.9em;
+    color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    align-items: center;
+  }
+  
+  .movies-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 1;
+  }
+  
+  .movie-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .watch-trailer-button, .watch-now-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 25px;
+  }
+  
+  .watch-trailer-button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+  }
+  
+  .watch-trailer-button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .watch-now-button {
+    background-color: gold;
+    color: black;
+  }
+  
+  .watch-now-button:hover {
+    background-color: darkgoldenrod;
+  }
+  
+  .watch-now-button i {
+    margin-right: 8px;
+  }
+  
+
+  .movie-list-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  

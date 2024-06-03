@@ -1,0 +1,102 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .navbar-logo {
+    height: 30px;
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 55px;
+    margin: 0;
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .navbar-item {
+    cursor: pointer;
+    font-size: 1em;
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  .navbar-item:hover {
+    color: #61dafb;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .separator {
+    margin: 0 5px;
+    color: white;
+  }
+  
+  .search-button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding-right: 15px;
+  }
+  
+  .search-button:hover {
+    color: #61dafb;
+  }
+
+  .home-container {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .home-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    height: 100%;
+  }
+  
+  .home-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .home-subtitle {
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 20px; 
+  }
+  
+  
+  .home-button {
+    background-color: red;
+    color: white; 
+    border: none; 
+    padding: 15px 30px; 
+    font-size: 1rem;
+    border-radius: 10px; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .home-button:hover {
+    background-color: darkred;
+  }
+  
